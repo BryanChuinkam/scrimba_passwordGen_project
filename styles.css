@@ -1,0 +1,70 @@
+body {
+  background: #111827;
+  color: white;
+
+}
+
+#content-div {
+  background: #1F2937;
+  height: 350px;
+  width: 500px;
+  margin: 150px auto;
+  padding: 30px;
+}
+
+header {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: left;
+}
+
+h1 {
+  margin: 0px;
+}
+
+#green-h1 {
+  color: #047857;
+  ;
+}
+
+#tagline-paragraph {
+  margin-top: 0px;
+}
+
+#genPassword-btn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: #6EE7B7;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: white;
+  transition: background 0.3s, transform 0.3s;  /* Add a transition for a smoother effect */
+}
+
+#genPassword-btn:hover {
+  background: #5AC69E;  /* Darker color when the button is clicked */
+  transform: scale(1.05);  /* Slightly larger size when the button is clicked */
+}
+
+hr {
+  border: 1px solid #6B7280;
+}
+
+#generatedPassword-section {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.generatedPassword-paragraph {
+  background: #6B7280;
+  width: 150px;
+  height: 20px;
+  margin: 0px 10px 0px 0px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #6EE7B7;
+  text-align: center;
+
+}
